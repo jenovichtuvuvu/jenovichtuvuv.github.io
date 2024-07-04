@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #adadad;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.header h1 {
+    margin: 10px 0 5px;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #ff0000;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    background-color: #0026ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.job, .education {
+    margin-bottom: 20px;
+}
+
+.job h3, .education h3 {
+    margin: 5px 0;
+}
+
+.job span, .education span {
+    display: block;
+    font-size: 0.9em;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills li {
+    background: #eee;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    flex: 1 1 calc(30% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+}
